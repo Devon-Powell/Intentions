@@ -1,0 +1,15 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "SetRandomSeed", menuName = "ScriptableObjects/SetRandomSeed")]
+public class SetRandomSeedSO : ScriptableObject
+{
+    public bool useStringSeed;
+    public string stringSeed = "seed string";
+
+    public bool randomizeSeed;
+    public int seed;
+
+    public float[] values;
+}

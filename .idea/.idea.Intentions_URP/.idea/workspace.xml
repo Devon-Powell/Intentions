@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6834dbc7-2c92-488c-b80f-88fa6b216971" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/Data/NPCLocations.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/Data/CompanyNames.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/SelectNPC/OnSelect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/SelectNPC/UpdateNPCStatsText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/Behavior/NPCController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Seed/SetRandomSeed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/Data/NPCDataGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/Data/NPCDataHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/Data/BusinessData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/Data/ServicesData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/Data/NPCData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/CameraMixManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/SpectateCameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/CameraRigController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/Spawning/CharacterSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeManager/TimeManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/Data/NPCNames.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeManager/LightingManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/Utility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/SelectNPC/UpdateNPCStatBars.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/Behavior/NPCGoalManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/Data/NPCStatManager.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/SpectateCameraMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TimeManager/LightingManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TimeManager/TimeManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/NPCSpawnFamily.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/Behavior/CheckPathingState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GOAP/GOAPActions/GOAPActions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/Behavior/NPCActions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GOAP/GOAPActions/Actions/AttackRangedAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GOAP/GOAPGoals/KillTargetGoal/Actions/AttackMeleeAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GOAP/GOAPGoals/KillTargetGoal/Actions/AttackRangedAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GOAP/GOAPGoals/KillTargetGoal/Actions/GetWeaponAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GOAP/GOAPGoals/KillTargetGoal/Actions/GetMeleeWeaponAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GOAP/GOAPGoals/KillTargetGoal/Actions/GetRangedWeaponAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GOAP/GOAPGoals/EatGoal/Actions/GetFoodAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/GOAP/Core/GoapAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GOAP/GOAPGoals/EatGoal/Actions/WorkAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/CharacterData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/CharacterDataGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/Data/NPCDataGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/Data/NPCDataHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/Data/BusinessData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/Data/ServicesData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utility/Utility.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/Data/NPCData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraRigController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/Data/NPCStatManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/SelectNPC/OnSelect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/SelectNPC/UpdateNPCStatBars.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/Behavior/NPCGoalManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/Data/NPCLocations.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/Behavior/NPCController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level/InteractablesSO.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1e33N7ik5uE8WQNAxcfeGZK0g1M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6834dbc7-2c92-488c-b80f-88fa6b216971" name="Default Changelist" comment="" />
+      <created>1593536406664</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593536406664</updated>
+      <workItem from="1593536418846" duration="8705000" />
+      <workItem from="1593657415097" duration="944000" />
+      <workItem from="1593663859533" duration="3767000" />
+      <workItem from="1593759481384" duration="4587000" />
+      <workItem from="1593803369566" duration="6827000" />
+      <workItem from="1593914577326" duration="12590000" />
+      <workItem from="1594076472944" duration="16737000" />
+      <workItem from="1594154606180" duration="4121000" />
+      <workItem from="1594390473267" duration="1948000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2647" y="230" key="RiderGenerateDialog" timestamp="1593922065416">
+      <screen x="1920" y="-14" width="1920" height="1040" />
+    </state>
+    <state x="2647" y="230" key="RiderGenerateDialog/-1920.0.1920.1040/-1.-1040.1920.1040/1920.-14.1920.1040/0.0.1920.1040@1920.-14.1920.1040" timestamp="1593922065416" />
+    <state x="2397" y="148" key="SettingsEditor" timestamp="1593811651643">
+      <screen x="1920" y="-14" width="1920" height="1040" />
+    </state>
+    <state x="2397" y="148" key="SettingsEditor/-1920.0.1920.1040/-1.-1040.1920.1040/1920.-14.1920.1040/0.0.1920.1040@1920.-14.1920.1040" timestamp="1593811651643" />
+    <state x="172" y="-1040" width="1697" height="1027" maximized="true" key="dock-window-1" timestamp="1593673309511">
+      <screen x="-1" y="-1040" width="1920" height="1040" />
+    </state>
+    <state x="172" y="-1040" width="1697" height="1027" maximized="true" key="dock-window-1/-1920.0.1920.1040/-1.-1040.1920.1040/1920.-14.1920.1040/0.0.1920.1040@1920.-14.1920.1040" timestamp="1593673309511" />
+  </component>
+</project>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Devon\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Devon\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_Intentions_URP.-738832588.00" t="ExcludeRecursive" />
+    <e p="E:\ZNEW\UnityProjects\Intentions_URP" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="LowMan" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="ThirdPersonCharacter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="NavMeshComponents" t="Include">
+          <e p="Editor" t="Include">
+            <e p="NavMeshAssetManager.cs" t="Include" />
+            <e p="NavMeshComponentsEditor.asmdef" t="Include" />
+            <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
+            <e p="NavMeshLinkEditor.cs" t="Include" />
+            <e p="NavMeshModifierEditor.cs" t="Include" />
+            <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
+            <e p="NavMeshSurfaceEditor.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="NavMeshComponents.asmdef" t="Include" />
+            <e p="NavMeshLink.cs" t="Include" />
+            <e p="NavMeshModifier.cs" t="Include" />
+            <e p="NavMeshModifierVolume.cs" t="Include" />
+            <e p="NavMeshSurface.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PathCreator" t="Include">
+          <e p="Core" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Helper" t="Include">
+                <e p="MouseUtility.cs" t="Include" />
+                <e p="PathHandle.cs" t="Include" />
+                <e p="ScreenSpacePolyLine.cs" t="Include" />
+              </e>
+              <e p="PathCreatorEditor.asmdef" t="Include" />
+              <e p="PathEditor.cs" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="Objects" t="Include">
+                <e p="BezierPath.cs" t="Include" />
+                <e p="EndOfPathInstruction.cs" t="Include" />
+                <e p="GlobalDisplaySettings.cs" t="Include" />
+                <e p="MinMax3D.cs" t="Include" />
+                <e p="PathCreator.cs" t="Include" />
+                <e p="PathCreatorData.cs" t="Include" />
+                <e p="PathSpace.cs" t="Include" />
+                <e p="VertexPath.cs" t="Include" />
+              </e>
+              <e p="PathCreator.asmdef" t="Include" />
+              <e p="Utility" t="Include">
+                <e p="CubicBezierUtility.cs" t="Include" />
+                <e p="MathUtility.cs" t="Include" />
+                <e p="VertexPathUtility.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Examples" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Editor" t="Include">
+                <e p="PathSceneToolEditor.cs" t="Include" />
+              </e>
+              <e p="GeneratePathExample.cs" t="Include" />
+              <e p="PathFollower.cs" t="Include" />
+              <e p="PathPlacer.cs" t="Include" />
+              <e p="PathSceneTool.cs" t="Include" />
+              <e p="PathSpawner.cs" t="Include" />
+              <e p="RoadMeshCreator.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Procedural" t="Include">
+          <e p="BezierCurve.cs" t="Include" />
+          <e p="ProceduralGen.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Camera" t="Include">
+            <e p="CameraMixManager.cs" t="Include" />
+            <e p="CameraRigController.cs" t="Include" />
+            <e p="SpectateCameraMovement.cs" t="Include" />
+          </e>
+          <e p="Level" t="Include">
+            <e p="Interactables" t="Include">
+              <e p="InteractablesSO.cs" t="Include" />
+            </e>
+          </e>
+          <e p="NPC" t="Include">
+            <e p="Behavior" t="Include">
+              <e p="NPCController.cs" t="Include" />
+              <e p="NPCGoalManager.cs" t="Include" />
+            </e>
+            <e p="Data" t="Include">
+              <e p="BusinessData.cs" t="Include" />
+              <e p="CompanyNames.cs" t="Include" />
+              <e p="HousingData.cs" t="Include" />
+              <e p="NPCData.cs" t="Include" />
+              <e p="NPCDataGenerator.cs" t="Include" />
+              <e p="NPCDataHandler.cs" t="Include" />
+              <e p="NPCLocations.cs" t="Include" />
+              <e p="NPCNames.cs" t="Include" />
+              <e p="NPCStatManager.cs" t="Include" />
+              <e p="RecreationalData.cs" t="Include" />
+              <e p="ResidentialData.cs" t="Include" />
+              <e p="ServicesData.cs" t="Include" />
+            </e>
+            <e p="Spawning" t="Include">
+              <e p="CharacterSpawner.cs" t="Include" />
+              <e p="NPCSpawnFamily.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Seed" t="Include">
+            <e p="SetRandomSeed.cs" t="Include" />
+          </e>
+          <e p="Temp" t="Include">
+            <e p="RandomColor.cs" t="Include" />
+          </e>
+          <e p="TimeManager" t="Include">
+            <e p="LightingManager.cs" t="Include" />
+            <e p="LightingPresets.cs" t="Include" />
+            <e p="TimeManager.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="DrawSelectedNPCPath.cs" t="Include" />
+            <e p="SelectNPC" t="Include">
+              <e p="ClickRaycast.cs" t="Include" />
+              <e p="OnSelect.cs" t="Include" />
+              <e p="UpdateNPCStatBars.cs" t="Include" />
+              <e p="UpdateNPCStatsText.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Utility" t="Include">
+            <e p="Utility.cs" t="Include" />
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="TutorialInfo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadmeEditor.cs" t="Include" />
+            </e>
+            <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Intentions_URP.sln" t="IncludeFlat" />
+      <e p="NavMeshComponents.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsEditor.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="PathCreator.csproj" t="IncludeRecursive" />
+      <e p="PathCreatorEditor.csproj" t="IncludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
