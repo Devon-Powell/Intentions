@@ -2,21 +2,13 @@
 
 public class NPCDataGenerator : MonoBehaviour
 {
-    private static NPCLocationsSO _npcLocationsSo;
-    public NPCNames _npcNames;
-
-    public float employedRatio;
-    public float homelessRatio;
-    public float lastNameRatio;
-
-    public AnimationCurve ageCurve;
-    public AnimationCurve healthCurve;
-    public AnimationCurve mentalHealthCurve;
+    private static NPCLocationDataSO _npcLocationDataSO;
+    private static NPCGenerationDataSO _npcGenerationDataSO;
 
     private void Awake()
     {
-        _npcLocationsSo = Resources.Load<NPCLocationsSO>("ScriptableObjects/NPCLocations");
-        if (_npcNames == null) _npcNames = this.gameObject.GetComponent<NPCNames>();
+        _npcLocationDataSO = Resources.Load<NPCLocationDataSO>("ScriptableObjects/GameData/NPCLocationsData");
+        _npcGenerationDataSO = Resources.Load<NPCGenerationDataSO>("ScriptableObjects/GameData/NPCGenerationData");
     }
 
     public NPCData AssignCharacterData(NPCData data)
@@ -47,35 +39,35 @@ public class NPCDataGenerator : MonoBehaviour
 
     private void AssignFirstName(NPCData data)
     {
-        if (data.isMale) data.firstName = _npcNames.maleNames[Random.Range(0, _npcNames.maleNames.Count)];
-            else data.firstName = _npcNames.femaleNames[Random.Range(0, _npcNames.femaleNames.Count)];
+        if (data.isMale) data.firstName = _npcGenerationDataSO.maleNames[Random.Range(0, _npcGenerationDataSO.maleNames.Count)];
+            else data.firstName = _npcGenerationDataSO.femaleNames[Random.Range(0, _npcGenerationDataSO.femaleNames.Count)];
     }
 
     private void AssignAge(NPCData data)
     {
-        data.age = Mathf.FloorToInt(ageCurve.Evaluate(Random.value));
+        data.age = Mathf.FloorToInt(_npcGenerationDataSO.ageCurve.Evaluate(Random.value));
         data.birthday = Random.Range(1, 365);
     }
 
     private void AssignJob(NPCData data)
     {
-        data.isEmployed = (Random.value < employedRatio);
+        data.isEmployed = (Random.value < _npcGenerationDataSO.employedRatio);
         if (data.isEmployed)
         {
             data.workplace = "test";
-            data.workplaceIdentifier = Random.Range(0, _npcLocationsSo.jobList.Count);
+            //data.workplaceIdentifier = Random.Range(0, _npcLocationDataSO.jobList.Count);
         }
     }
 
 
     private void AssignHome(NPCData data)
     {
-        data.hasHome = (Random.value > homelessRatio);
+        data.hasHome = (Random.value > _npcGenerationDataSO.homelessRatio);
 
         if (data.hasHome)
         {
             data.homeType = Random.Range(0, 2);
-            data.homeIdentifier = Random.Range(0, _npcLocationsSo.homeList.Count);
+            //data.homeIdentifier = Random.Range(0, _npcLocationDataSO.homeList.Count);
         }
     }
     

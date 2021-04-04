@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GenerateNPCDataSO : MonoBehaviour
+public class NPCGenerationDataSO : MonoBehaviour
 {
     [Header("Generation Affectors")]
     public float employedRatio;

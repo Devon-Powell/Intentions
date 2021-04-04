@@ -7,15 +7,10 @@ using UnityStandardAssets.Characters.ThirdPerson;
 [System.Serializable]
 public class NPCData : MonoBehaviour
 {
-    // Reference to Character's GameObject
     public GameObject go;
-    // Reference to NavMeshAgent on GameObject
     public NavMeshAgent agent;
-    // Reference to ThirdPersonCharacter on GameObject
     public ThirdPersonCharacter character;
     
-    
-    // Character Stats \\
     // Maintenance Stats
     public float currentHealth;
     public float currentMentalHealth;
@@ -47,6 +42,6 @@ public class NPCData : MonoBehaviour
     
     // Household data
     public bool hasHome;
-    public int homeType; // Apartment, Single House, Double House, etc
+    public int homeType;
     public int homeIdentifier;
 }
