@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPCGenerationDataSO : MonoBehaviour
+[CreateAssetMenu(fileName = "NPCGenerationData", menuName = "ScriptableObjects/NPCGenerationData")]
+public class NPCGenerationDataSO : ScriptableObject
 {
     [Header("Generation Affectors")]
     public float employedRatio;

@@ -1,14 +1,17 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "ScriptableObjects/Interactables")]
-public class InteractablesSO : ScriptableObject
+public class SceneInteractable : MonoBehaviour
 {
     [Header("Information")]
     public string activityName;
     public string activityDescription;
     public Vector3 activityLocation;
+    public Quaternion activityRotation;
+    public Building building;
+    
 
     [Header("Available Hours")] [Range(0, 23)]
     public float activityHourMin;
@@ -45,4 +48,10 @@ public class InteractablesSO : ScriptableObject
     [Range(-10,10)]
     public float energyModifier;
 
+    protected virtual void Awake()
+    {
+        building = (Building) transform.parent.parent.GetComponent(typeof(Building));
+        activityLocation = transform.position;
+        activityRotation = transform.rotation;
+    }
 }

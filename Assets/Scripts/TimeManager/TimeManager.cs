@@ -8,7 +8,7 @@ using UnityEditor.Rendering;
 
 public class TimeManager : MonoBehaviour
 {
-    [Range(1f, 10f)]
+    [Range(1f, 100f)]
     public int timeScale;
 
     private System.DateTime date;

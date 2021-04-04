@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -420,7 +420,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6149183949872135665}
   - {fileID: 2142241647}
   - {fileID: 743849618}
   - {fileID: 67321891}
@@ -1435,7 +1434,6 @@ GameObject:
   - component: {fileID: 67321891}
   - component: {fileID: 67321895}
   - component: {fileID: 67321894}
-  - component: {fileID: 67321893}
   - component: {fileID: 67321892}
   m_Layer: 0
   m_Name: Bed (3)
@@ -1464,7 +1462,7 @@ Transform:
   - {fileID: 692902793}
   - {fileID: 6753367}
   m_Father: {fileID: 18064346}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &67321892
 MonoBehaviour:
@@ -1475,31 +1473,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 67321890}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
+  m_Script: {fileID: 11500000, guid: 537a19f37b62df047bfd80c2a6a42ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers: []
---- !u!114 &67321893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 67321890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers:
-  - statType: 1
-    value: 0.5
+  activityName: Sleep
+  activityDescription: 'Going to sleep at... '
+  activityLocation: {x: 0, y: 0, z: 0}
+  activityRotation: {x: 0, y: 0, z: 0, w: 0}
+  building: {fileID: 0}
+  activityHourMin: 0
+  activityHourMax: 0
+  activityDuration: 0
+  durationRndMin: 0
+  durationRndMax: 0
+  healthAffect: 0
+  mentalHealthAffect: 0
+  hungerAffect: 0
+  energyAffect: 0.05
+  moneyAffect: 0
+  healthModifier: 0
+  mentalHealthModifier: 0
+  hungerModifier: 0
+  energyModifier: 0
 --- !u!23 &67321894
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1678,7 +1673,6 @@ GameObject:
   - component: {fileID: 82388231}
   - component: {fileID: 82388235}
   - component: {fileID: 82388234}
-  - component: {fileID: 82388233}
   - component: {fileID: 82388232}
   m_Layer: 0
   m_Name: Bed (8)
@@ -1707,7 +1701,7 @@ Transform:
   - {fileID: 274131453}
   - {fileID: 1319605252}
   m_Father: {fileID: 18064346}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &82388232
 MonoBehaviour:
@@ -1718,31 +1712,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 82388230}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
+  m_Script: {fileID: 11500000, guid: 537a19f37b62df047bfd80c2a6a42ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers: []
---- !u!114 &82388233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82388230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers:
-  - statType: 1
-    value: 0.5
+  activityName: Sleep
+  activityDescription: 'Going to sleep at... '
+  activityLocation: {x: 0, y: 0, z: 0}
+  activityRotation: {x: 0, y: 0, z: 0, w: 0}
+  building: {fileID: 0}
+  activityHourMin: 0
+  activityHourMax: 0
+  activityDuration: 0
+  durationRndMin: 0
+  durationRndMax: 0
+  healthAffect: 0
+  mentalHealthAffect: 0
+  hungerAffect: 0
+  energyAffect: 0.05
+  moneyAffect: 0
+  healthModifier: 0
+  mentalHealthModifier: 0
+  hungerModifier: 0
+  energyModifier: 0
 --- !u!23 &82388234
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7766,7 +7757,6 @@ GameObject:
   - component: {fileID: 435247233}
   - component: {fileID: 435247237}
   - component: {fileID: 435247236}
-  - component: {fileID: 435247235}
   - component: {fileID: 435247234}
   m_Layer: 0
   m_Name: Bed (11)
@@ -7795,7 +7785,7 @@ Transform:
   - {fileID: 166166352}
   - {fileID: 1966799331}
   m_Father: {fileID: 18064346}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &435247234
 MonoBehaviour:
@@ -7806,31 +7796,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 435247232}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
+  m_Script: {fileID: 11500000, guid: 537a19f37b62df047bfd80c2a6a42ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers: []
---- !u!114 &435247235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 435247232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers:
-  - statType: 1
-    value: 0.5
+  activityName: Sleep
+  activityDescription: 'Going to sleep at... '
+  activityLocation: {x: 0, y: 0, z: 0}
+  activityRotation: {x: 0, y: 0, z: 0, w: 0}
+  building: {fileID: 0}
+  activityHourMin: 0
+  activityHourMax: 0
+  activityDuration: 0
+  durationRndMin: 0
+  durationRndMax: 0
+  healthAffect: 0
+  mentalHealthAffect: 0
+  hungerAffect: 0
+  energyAffect: 0.05
+  moneyAffect: 0
+  healthModifier: 0
+  mentalHealthModifier: 0
+  hungerModifier: 0
+  energyModifier: 0
 --- !u!23 &435247236
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11092,7 +11079,6 @@ GameObject:
   - component: {fileID: 686713349}
   - component: {fileID: 686713353}
   - component: {fileID: 686713352}
-  - component: {fileID: 686713351}
   - component: {fileID: 686713350}
   m_Layer: 0
   m_Name: Bed (12)
@@ -11121,7 +11107,7 @@ Transform:
   - {fileID: 1646015362}
   - {fileID: 1484115815}
   m_Father: {fileID: 18064346}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &686713350
 MonoBehaviour:
@@ -11132,31 +11118,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 686713348}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
+  m_Script: {fileID: 11500000, guid: 537a19f37b62df047bfd80c2a6a42ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers: []
---- !u!114 &686713351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 686713348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers:
-  - statType: 1
-    value: 0.5
+  activityName: Sleep
+  activityDescription: 'Going to sleep at... '
+  activityLocation: {x: 0, y: 0, z: 0}
+  activityRotation: {x: 0, y: 0, z: 0, w: 0}
+  building: {fileID: 0}
+  activityHourMin: 0
+  activityHourMax: 0
+  activityDuration: 0
+  durationRndMin: 0
+  durationRndMax: 0
+  healthAffect: 0
+  mentalHealthAffect: 0
+  hungerAffect: 0
+  energyAffect: 0.05
+  moneyAffect: 0
+  healthModifier: 0
+  mentalHealthModifier: 0
+  hungerModifier: 0
+  energyModifier: 0
 --- !u!23 &686713352
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11854,7 +11837,6 @@ GameObject:
   - component: {fileID: 743849618}
   - component: {fileID: 743849622}
   - component: {fileID: 743849621}
-  - component: {fileID: 743849620}
   - component: {fileID: 743849619}
   m_Layer: 0
   m_Name: Bed (2)
@@ -11883,7 +11865,7 @@ Transform:
   - {fileID: 285806798}
   - {fileID: 630319956}
   m_Father: {fileID: 18064346}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &743849619
 MonoBehaviour:
@@ -11894,31 +11876,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 743849617}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
+  m_Script: {fileID: 11500000, guid: 537a19f37b62df047bfd80c2a6a42ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers: []
---- !u!114 &743849620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743849617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers:
-  - statType: 1
-    value: 0.5
+  activityName: Sleep
+  activityDescription: 'Going to sleep at... '
+  activityLocation: {x: 0, y: 0, z: 0}
+  activityRotation: {x: 0, y: 0, z: 0, w: 0}
+  building: {fileID: 0}
+  activityHourMin: 0
+  activityHourMax: 0
+  activityDuration: 0
+  durationRndMin: 0
+  durationRndMax: 0
+  healthAffect: 0
+  mentalHealthAffect: 0
+  hungerAffect: 0
+  energyAffect: 0.05
+  moneyAffect: 0
+  healthModifier: 0
+  mentalHealthModifier: 0
+  hungerModifier: 0
+  energyModifier: 0
 --- !u!23 &743849621
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18416,6 +18395,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 113fc001cf0c41a4a8fa1526aeadcd93, type: 3}
+--- !u!1 &1115668706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1115668707}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1115668707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115668706}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 28.525837, y: -75.55917, z: 60.282097}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1116762780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19058,7 +19067,6 @@ GameObject:
   - component: {fileID: 1176426604}
   - component: {fileID: 1176426608}
   - component: {fileID: 1176426607}
-  - component: {fileID: 1176426606}
   - component: {fileID: 1176426605}
   m_Layer: 0
   m_Name: Bed (10)
@@ -19087,7 +19095,7 @@ Transform:
   - {fileID: 315982341}
   - {fileID: 1446229877}
   m_Father: {fileID: 18064346}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1176426605
 MonoBehaviour:
@@ -19098,31 +19106,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 1176426603}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
+  m_Script: {fileID: 11500000, guid: 537a19f37b62df047bfd80c2a6a42ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers: []
---- !u!114 &1176426606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1176426603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers:
-  - statType: 1
-    value: 0.5
+  activityName: Sleep
+  activityDescription: 'Going to sleep at... '
+  activityLocation: {x: 0, y: 0, z: 0}
+  activityRotation: {x: 0, y: 0, z: 0, w: 0}
+  building: {fileID: 0}
+  activityHourMin: 0
+  activityHourMax: 0
+  activityDuration: 0
+  durationRndMin: 0
+  durationRndMax: 0
+  healthAffect: 0
+  mentalHealthAffect: 0
+  hungerAffect: 0
+  energyAffect: 0.05
+  moneyAffect: 0
+  healthModifier: 0
+  mentalHealthModifier: 0
+  hungerModifier: 0
+  energyModifier: 0
 --- !u!23 &1176426607
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19979,6 +19984,54 @@ Transform:
   m_Father: {fileID: 152975926}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1247427811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1247427813}
+  - component: {fileID: 1247427812}
+  m_Layer: 0
+  m_Name: SceneInteractables
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1247427812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247427811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e45075ae5efa14c88f0f97e490fb99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneInteractables:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!4 &1247427813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247427811}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3130646, y: 6.8167667, z: 5.5285807}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1252746898
 GameObject:
   m_ObjectHideFlags: 0
@@ -19990,7 +20043,6 @@ GameObject:
   - component: {fileID: 1252746899}
   - component: {fileID: 1252746903}
   - component: {fileID: 1252746902}
-  - component: {fileID: 1252746901}
   - component: {fileID: 1252746900}
   m_Layer: 0
   m_Name: Bed (5)
@@ -20019,7 +20071,7 @@ Transform:
   - {fileID: 1220651135}
   - {fileID: 2033180623}
   m_Father: {fileID: 18064346}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1252746900
 MonoBehaviour:
@@ -20030,31 +20082,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 1252746898}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
+  m_Script: {fileID: 11500000, guid: 537a19f37b62df047bfd80c2a6a42ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers: []
---- !u!114 &1252746901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1252746898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers:
-  - statType: 1
-    value: 0.5
+  activityName: Sleep
+  activityDescription: 'Going to sleep at... '
+  activityLocation: {x: 0, y: 0, z: 0}
+  activityRotation: {x: 0, y: 0, z: 0, w: 0}
+  building: {fileID: 0}
+  activityHourMin: 0
+  activityHourMax: 0
+  activityDuration: 0
+  durationRndMin: 0
+  durationRndMax: 0
+  healthAffect: 0
+  mentalHealthAffect: 0
+  hungerAffect: 0
+  energyAffect: 0.05
+  moneyAffect: 0
+  healthModifier: 0
+  mentalHealthModifier: 0
+  hungerModifier: 0
+  energyModifier: 0
 --- !u!23 &1252746902
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20216,75 +20265,6 @@ MonoBehaviour:
     value: 5
   - statType: 4
     value: 0
---- !u!1001 &1269915567
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 447d4b8e6361f2d428fcb7e7c54df76e,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 447d4b8e6361f2d428fcb7e7c54df76e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -13.9
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 447d4b8e6361f2d428fcb7e7c54df76e,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.1308418e-19
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 447d4b8e6361f2d428fcb7e7c54df76e,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.15
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 447d4b8e6361f2d428fcb7e7c54df76e,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 447d4b8e6361f2d428fcb7e7c54df76e,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 447d4b8e6361f2d428fcb7e7c54df76e,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 447d4b8e6361f2d428fcb7e7c54df76e,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 447d4b8e6361f2d428fcb7e7c54df76e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 447d4b8e6361f2d428fcb7e7c54df76e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 447d4b8e6361f2d428fcb7e7c54df76e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 447d4b8e6361f2d428fcb7e7c54df76e,
-        type: 3}
-      propertyPath: m_Name
-      value: PrototypeAssets
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
 --- !u!1 &1271701666
 GameObject:
   m_ObjectHideFlags: 0
@@ -21425,7 +21405,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1366931803}
-  m_LocalRotation: {x: 0.12038503, y: 0.000000024390003, z: 0.000000031748236, w: 0.9927273}
+  m_LocalRotation: {x: 0.12038502, y: 0.000000024390213, z: 0.00000003174647, w: 0.99272734}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -23135,8 +23115,8 @@ MonoBehaviour:
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 10
   m_LookaheadIgnoreY: 0
-  m_HorizontalDamping: 0
-  m_VerticalDamping: 0
+  m_HorizontalDamping: 14.6
+  m_VerticalDamping: 13.6
   m_ScreenX: 0.5
   m_ScreenY: 0.5
   m_DeadZoneWidth: 0
@@ -24840,7 +24820,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544861961}
-  m_LocalRotation: {x: 0.12038503, y: 0.000000024393747, z: 0.000000031717327, w: 0.9927273}
+  m_LocalRotation: {x: 0.12038505, y: -0.0000000033287186, z: 0.00000003507875, w: 0.99272734}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -25727,7 +25707,6 @@ GameObject:
   - component: {fileID: 1578320772}
   - component: {fileID: 1578320776}
   - component: {fileID: 1578320775}
-  - component: {fileID: 1578320774}
   - component: {fileID: 1578320773}
   m_Layer: 0
   m_Name: Bed (6)
@@ -25756,7 +25735,7 @@ Transform:
   - {fileID: 1059269485}
   - {fileID: 1843846448}
   m_Father: {fileID: 18064346}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1578320773
 MonoBehaviour:
@@ -25767,31 +25746,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 1578320771}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
+  m_Script: {fileID: 11500000, guid: 537a19f37b62df047bfd80c2a6a42ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers: []
---- !u!114 &1578320774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1578320771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers:
-  - statType: 1
-    value: 0.5
+  activityName: Sleep
+  activityDescription: 'Going to sleep at... '
+  activityLocation: {x: 0, y: 0, z: 0}
+  activityRotation: {x: 0, y: 0, z: 0, w: 0}
+  building: {fileID: 0}
+  activityHourMin: 0
+  activityHourMax: 0
+  activityDuration: 0
+  durationRndMin: 0
+  durationRndMax: 0
+  healthAffect: 0
+  mentalHealthAffect: 0
+  hungerAffect: 0
+  energyAffect: 0.05
+  moneyAffect: 0
+  healthModifier: 0
+  mentalHealthModifier: 0
+  hungerModifier: 0
+  energyModifier: 0
 --- !u!23 &1578320775
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26174,7 +26150,6 @@ GameObject:
   - component: {fileID: 1616809367}
   - component: {fileID: 1616809371}
   - component: {fileID: 1616809370}
-  - component: {fileID: 1616809369}
   - component: {fileID: 1616809368}
   m_Layer: 0
   m_Name: Bed (4)
@@ -26203,7 +26178,7 @@ Transform:
   - {fileID: 1453683372}
   - {fileID: 972892921}
   m_Father: {fileID: 18064346}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1616809368
 MonoBehaviour:
@@ -26214,31 +26189,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 1616809366}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
+  m_Script: {fileID: 11500000, guid: 537a19f37b62df047bfd80c2a6a42ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers: []
---- !u!114 &1616809369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1616809366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers:
-  - statType: 1
-    value: 0.5
+  activityName: Sleep
+  activityDescription: 'Going to sleep at... '
+  activityLocation: {x: 0, y: 0, z: 0}
+  activityRotation: {x: 0, y: 0, z: 0, w: 0}
+  building: {fileID: 0}
+  activityHourMin: 0
+  activityHourMax: 0
+  activityDuration: 0
+  durationRndMin: 0
+  durationRndMax: 0
+  healthAffect: 0
+  mentalHealthAffect: 0
+  hungerAffect: 0
+  energyAffect: 0.05
+  moneyAffect: 0
+  healthModifier: 0
+  mentalHealthModifier: 0
+  hungerModifier: 0
+  energyModifier: 0
 --- !u!23 &1616809370
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26338,10 +26310,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
-  m_LookaheadTime: 0
-  m_LookaheadSmoothing: 10
+  m_LookaheadTime: 0.339
+  m_LookaheadSmoothing: 3
   m_LookaheadIgnoreY: 0
-  m_HorizontalDamping: 0.5
+  m_HorizontalDamping: 0.8
   m_VerticalDamping: 0.5
   m_ScreenX: 0.5
   m_ScreenY: 0.5
@@ -27222,7 +27194,6 @@ GameObject:
   - component: {fileID: 1671252256}
   - component: {fileID: 1671252260}
   - component: {fileID: 1671252259}
-  - component: {fileID: 1671252258}
   - component: {fileID: 1671252257}
   m_Layer: 0
   m_Name: Bed (9)
@@ -27251,7 +27222,7 @@ Transform:
   - {fileID: 43611682}
   - {fileID: 631741951}
   m_Father: {fileID: 18064346}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1671252257
 MonoBehaviour:
@@ -27262,31 +27233,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 1671252255}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
+  m_Script: {fileID: 11500000, guid: 537a19f37b62df047bfd80c2a6a42ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers: []
---- !u!114 &1671252258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1671252255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers:
-  - statType: 1
-    value: 0.5
+  activityName: Sleep
+  activityDescription: 'Going to sleep at... '
+  activityLocation: {x: 0, y: 0, z: 0}
+  activityRotation: {x: 0, y: 0, z: 0, w: 0}
+  building: {fileID: 0}
+  activityHourMin: 0
+  activityHourMax: 0
+  activityDuration: 0
+  durationRndMin: 0
+  durationRndMax: 0
+  healthAffect: 0
+  mentalHealthAffect: 0
+  hungerAffect: 0
+  energyAffect: 0.05
+  moneyAffect: 0
+  healthModifier: 0
+  mentalHealthModifier: 0
+  hungerModifier: 0
+  energyModifier: 0
 --- !u!23 &1671252259
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27626,7 +27594,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
-  m_LocalRotation: {x: 0.12038503, y: 0.000000024390003, z: 0.000000031748236, w: 0.9927273}
+  m_LocalRotation: {x: 0.12038503, y: 0.00000002439021, z: 0.000000031746474, w: 0.9927273}
   m_LocalPosition: {x: 0, y: 2.94, z: -5.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -28840,10 +28808,10 @@ MonoBehaviour:
   m_BindingMode: 4
   m_SplineCurvature: 1
   m_Orbits:
-  - m_Height: 400
-    m_Radius: 40.8
+  - m_Height: 285.35
+    m_Radius: 8.9
   - m_Height: 120.6
-    m_Radius: 118.2
+    m_Radius: 54.5
   - m_Height: 1.44
     m_Radius: 5.85
   m_LegacyHeadingBias: 3.4028235e+38
@@ -29427,7 +29395,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1782905085
 GameObject:
@@ -30444,7 +30412,6 @@ GameObject:
   - component: {fileID: 1827530892}
   - component: {fileID: 1827530896}
   - component: {fileID: 1827530895}
-  - component: {fileID: 1827530894}
   - component: {fileID: 1827530893}
   m_Layer: 0
   m_Name: Bed (7)
@@ -30473,7 +30440,7 @@ Transform:
   - {fileID: 460213636}
   - {fileID: 77556999}
   m_Father: {fileID: 18064346}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1827530893
 MonoBehaviour:
@@ -30484,31 +30451,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 1827530891}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
+  m_Script: {fileID: 11500000, guid: 537a19f37b62df047bfd80c2a6a42ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers: []
---- !u!114 &1827530894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827530891}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers:
-  - statType: 1
-    value: 0.5
+  activityName: Sleep
+  activityDescription: 'Going to sleep at... '
+  activityLocation: {x: 0, y: 0, z: 0}
+  activityRotation: {x: 0, y: 0, z: 0, w: 0}
+  building: {fileID: 0}
+  activityHourMin: 0
+  activityHourMax: 0
+  activityDuration: 0
+  durationRndMin: 0
+  durationRndMax: 0
+  healthAffect: 0
+  mentalHealthAffect: 0
+  hungerAffect: 0
+  energyAffect: 0.05
+  moneyAffect: 0
+  healthModifier: 0
+  mentalHealthModifier: 0
+  hungerModifier: 0
+  energyModifier: 0
 --- !u!23 &1827530895
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30566,7 +30530,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ef354510ec2d4ea48987b8b6499d5a02,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ef354510ec2d4ea48987b8b6499d5a02,
         type: 3}
@@ -30652,18 +30616,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1834027268}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1834027271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1834027269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b23d1ad15563ed43b890e3769a10055, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1834027272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36417,7 +36369,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 45}
 --- !u!114 &2138677394
 MonoBehaviour:
@@ -36536,7 +36488,6 @@ GameObject:
   - component: {fileID: 2142241647}
   - component: {fileID: 2142241651}
   - component: {fileID: 2142241650}
-  - component: {fileID: 2142241649}
   - component: {fileID: 2142241648}
   m_Layer: 0
   m_Name: Bed (1)
@@ -36565,7 +36516,7 @@ Transform:
   - {fileID: 1135435415}
   - {fileID: 607655892}
   m_Father: {fileID: 18064346}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2142241648
 MonoBehaviour:
@@ -36576,31 +36527,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 2142241646}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
+  m_Script: {fileID: 11500000, guid: 537a19f37b62df047bfd80c2a6a42ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers: []
---- !u!114 &2142241649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2142241646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers:
-  - statType: 1
-    value: 0.5
+  activityName: Sleep
+  activityDescription: 'Going to sleep at... '
+  activityLocation: {x: 0, y: 0, z: 0}
+  activityRotation: {x: 0, y: 0, z: 0, w: 0}
+  building: {fileID: 0}
+  activityHourMin: 0
+  activityHourMax: 0
+  activityDuration: 0
+  durationRndMin: 0
+  durationRndMax: 0
+  healthAffect: 0
+  mentalHealthAffect: 0
+  hungerAffect: 0
+  energyAffect: 0.05
+  moneyAffect: 0
+  healthModifier: 0
+  mentalHealthModifier: 0
+  hungerModifier: 0
+  energyModifier: 0
 --- !u!23 &2142241650
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36790,319 +36738,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 651987614}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &885605885453571192
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3764219560525748882}
-  - component: {fileID: 5602583693927099404}
-  - component: {fileID: 4091078001968017619}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!33 &1180978676633513205
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8853168529139631503}
-  m_Mesh: {fileID: -3329902420748629119, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
---- !u!1 &1310941431873451646
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4918493854574401523}
-  - component: {fileID: 8989033850178961062}
-  - component: {fileID: 3218133786086262362}
-  m_Layer: 0
-  m_Name: Cube.004
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &1574643676719039686
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852866971297643366}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: -876546973899608171, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &1852866971297643366
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4875457738518970920}
-  - component: {fileID: 4929320177472829483}
-  - component: {fileID: 1574643676719039686}
-  m_Layer: 0
-  m_Name: Plane
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1951284548366961261
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7590006911180217852}
-  - component: {fileID: 8246468435680346423}
-  - component: {fileID: 8292018112095981410}
-  m_Layer: 0
-  m_Name: Cube.003
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!33 &3064179693131079068
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9155921218956813836}
-  m_Mesh: {fileID: 4493585093827132993, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
---- !u!23 &3218133786086262362
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1310941431873451646}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: -876546973899608171, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &3314761924500441548
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8289636648751491065}
-  m_Mesh: {fileID: -1550514412580984892, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
---- !u!4 &3764219560525748882
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 885605885453571192}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6149183949872135665}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &4091078001968017619
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 885605885453571192}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: -876546973899608171, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!4 &4324136775312673645
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7929264991447272163}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6149183949872135665}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4570499382875455409
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9155921218956813836}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6149183949872135665}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4875457738518970920
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852866971297643366}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.008422852, y: -0.42400664, z: 0.6882846}
-  m_LocalScale: {x: 1, y: 0.6377199, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6149183949872135665}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4918493854574401523
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1310941431873451646}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6149183949872135665}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4929320177472829483
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852866971297643366}
-  m_Mesh: {fileID: -462981019419857548, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
---- !u!4 &5265671800761394725
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8289636648751491065}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6149183949872135665}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5602583693927099404
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 885605885453571192}
-  m_Mesh: {fileID: -5495902117074765545, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
 --- !u!1001 &6138631684479127581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37199,428 +36834,3 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6138631684479127581}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &6149183949872135665
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8853168529139631503}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0055445437, y: 0.0070331213, z: 0}
-  m_LocalScale: {x: 0.0008362811, y: 0.00083628134, z: 0.00083628134}
-  m_Children:
-  - {fileID: 5265671800761394725}
-  - {fileID: 7590006911180217852}
-  - {fileID: 4875457738518970920}
-  - {fileID: 4570499382875455409}
-  - {fileID: 4918493854574401523}
-  - {fileID: 4324136775312673645}
-  - {fileID: 7293371713299240413}
-  - {fileID: 3764219560525748882}
-  m_Father: {fileID: 18064346}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &6510532174760698323
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9097673554674713976}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: -876546973899608171, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!23 &7001777959663054767
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7929264991447272163}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: -876546973899608171, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!4 &7293371713299240413
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9097673554674713976}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6149183949872135665}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &7590006911180217852
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1951284548366961261}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6149183949872135665}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &7817765760016090125
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9155921218956813836}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: -876546973899608171, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &7929264991447272163
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4324136775312673645}
-  - component: {fileID: 8313528195717658462}
-  - component: {fileID: 7001777959663054767}
-  m_Layer: 0
-  m_Name: Cube.005
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &8165876103512342993
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8289636648751491065}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 670224309865224971, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &8246468435680346423
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1951284548366961261}
-  m_Mesh: {fileID: -8678823145569952518, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
---- !u!1 &8289636648751491065
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5265671800761394725}
-  - component: {fileID: 3314761924500441548}
-  - component: {fileID: 8165876103512342993}
-  m_Layer: 0
-  m_Name: Cube.002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &8292018112095981410
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1951284548366961261}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 670224309865224971, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &8313528195717658462
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7929264991447272163}
-  m_Mesh: {fileID: 2212009239438826721, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
---- !u!23 &8626464801140341159
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8853168529139631503}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: -876546973899608171, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &8853168529139631503
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6149183949872135665}
-  - component: {fileID: 1180978676633513205}
-  - component: {fileID: 8626464801140341159}
-  - component: {fileID: 8853168529139631504}
-  m_Layer: 0
-  m_Name: Bed
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &8853168529139631504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8853168529139631503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031258c62c92b834588379bbdc90cddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactables: {fileID: 0}
-  interactionTime: 0
-  isInteractable: 0
-  interactableStatModifiers:
-  - statType: 1
-    value: 0.5
---- !u!33 &8986480198181919006
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9097673554674713976}
-  m_Mesh: {fileID: -2228417370725966487, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
---- !u!33 &8989033850178961062
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1310941431873451646}
-  m_Mesh: {fileID: -5053925668127403250, guid: 447d4b8e6361f2d428fcb7e7c54df76e, type: 3}
---- !u!1 &9097673554674713976
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7293371713299240413}
-  - component: {fileID: 8986480198181919006}
-  - component: {fileID: 6510532174760698323}
-  m_Layer: 0
-  m_Name: Cube.006
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &9155921218956813836
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4570499382875455409}
-  - component: {fileID: 3064179693131079068}
-  - component: {fileID: 7817765760016090125}
-  m_Layer: 0
-  m_Name: Cube.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
