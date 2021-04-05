@@ -7,11 +7,11 @@ public class Main : MonoBehaviour
 {
     //[SerializeField] private SetRandomSeed _setRandomSeed;
     //[SerializeField] private NPCLocations _npcLocations;
-    [SerializeField] private NPCNames _npcNames;
-    [SerializeField] private NPCSpawnFamily _npcSpawnFamily;
-    [SerializeField] private NPCDataGenerator _npcDataGenerator;
-    [SerializeField] private NPCDataHandler _npcDataHandler;
-    [SerializeField] private CharacterSpawner _characterSpawner;
+    // [SerializeField] private NPCNames _npcNames;
+    // [SerializeField] private NPCSpawnFamily _npcSpawnFamily;
+    // [SerializeField] private NPCDataGenerator _npcDataGenerator;
+    // [SerializeField] private NPCDataHandler _npcDataHandler;
+    // [SerializeField] private CharacterSpawner _characterSpawner;
     [SerializeField] private string[] classNames;
 
     private void Awake()

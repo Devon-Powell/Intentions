@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "SetRandomSeed", menuName = "ScriptableObjects/SetRandomSeed")]
+[CreateAssetMenu(fileName = "SetRandomSeedSP", menuName = "ScriptableObjects/SetRandomSeed")]
 public class SetRandomSeedSO : ScriptableObject
 {
     public bool useStringSeed;

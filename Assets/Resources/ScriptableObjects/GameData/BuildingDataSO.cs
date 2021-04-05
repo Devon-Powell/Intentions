@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "BuildingData", menuName = "ScriptableObjects/BuildingData")]
+[CreateAssetMenu(fileName = "BuildingDataSO", menuName = "ScriptableObjects/BuildingData")]
 public class BuildingDataSO : ScriptableObject
 {
     public List<Building> buildingList;
@@ -12,37 +12,12 @@ public class BuildingDataSO : ScriptableObject
     public List<RecreationalBuilding> recreationalBuildings;
     public List<ResidentialBuilding> residentialBuildings;
 
-    private void Awake()
+    private void OnEnable()
     {
         buildingList.Clear();
         commercialBuildings.Clear();
         industrialBuildings.Clear();
         residentialBuildings.Clear();
+        residentialBuildings.Clear();
     }
-
-    public void AddToBuildingList()
-    {
-        
-    }
-    
-    public void AddToCommercialBuildingList()
-    {
-        
-    }
-    
-    public void AddToIndustrialBuildingList()
-    {
-        
-    }
-    
-    public void AddToRecreationalBuildingList()
-    {
-        
-    }
-        
-    public void AddToResidentialBuildingList()
-    {
-        
-    }
-    
 }

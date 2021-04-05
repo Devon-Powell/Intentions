@@ -1,8 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NPCGenerationData", menuName = "ScriptableObjects/NPCGenerationData")]
+[CreateAssetMenu(fileName = "NPCGenerationDataSO", menuName = "ScriptableObjects/NPCGenerationData")]
 public class NPCGenerationDataSO : ScriptableObject
 {
     [Header("Generation Affectors")]

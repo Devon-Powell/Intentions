@@ -5,7 +5,7 @@ using Cinemachine;
 
 public class CameraRigController : MonoBehaviour
 {
-    public SelectNPC selectNPC;
+    //public SelectNPC selectNPC;
 
     [Header("Object References")]
     //[Tooltip("Exponential boost factor on translation, controllable by mouse wheel.")]
@@ -189,7 +189,7 @@ public class CameraRigController : MonoBehaviour
     {
         isFollowing = false;
         targetTransform = null;
-        selectNPC.ClearTarget();
+        //selectNPC.ClearTarget();
     }
 
 }

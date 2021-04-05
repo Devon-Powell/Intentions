@@ -7,11 +7,11 @@ public class ResidentialBuilding : Building
 {
     public int maxResidents;
     public int maxFamilies;
-    public List<NPCData> currentResidents;
+    //public List<NPCData> currentResidents;
     
     protected override void Awake()
     {
         base.Awake();
-        BuildingManager.buildingDataSo.residentialBuildings.Add(this);
+        _buildingManager.residentialBuildings.Add(this);
     }
 }

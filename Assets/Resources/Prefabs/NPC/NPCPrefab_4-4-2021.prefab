@@ -13,11 +13,13 @@ GameObject:
   - component: {fileID: 8504342639703974641}
   - component: {fileID: 8504342639703974640}
   - component: {fileID: 8504342639703974644}
-  - component: {fileID: 8504342639703974649}
   - component: {fileID: 8504342639703974648}
   - component: {fileID: 8504342639703974647}
+  - component: {fileID: 2143536908873849742}
+  - component: {fileID: 4072825853947793671}
+  - component: {fileID: 8504342639703974649}
   m_Layer: 0
-  m_Name: NPCPrefab
+  m_Name: NPCPrefab_4-4-2021
   m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,26 +123,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 1
---- !u!114 &8504342639703974649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8504342639703974415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce7a80d520cacc042b5fe14f373d8173, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MovingTurnSpeed: 360
-  m_StationaryTurnSpeed: 180
-  m_JumpPower: 6
-  m_GravityMultiplier: 2
-  m_RunCycleLegOffset: 0.2
-  m_MoveSpeedMultiplier: 1
-  m_AnimSpeedMultiplier: 1
-  m_GroundCheckDistance: 0.6
 --- !u!95 &8504342639703974648
 Animator:
   serializedVersion: 3
@@ -176,6 +158,92 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2143536908873849742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8504342639703974415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74fa5d0828fabd740a0428812cbd9e73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 8504342639703974644}
+  currentHappiness: 0
+  moveSpeedMin: 0
+  moveSpeedMax: 0
+  currentMoveSpeed: 0
+  maintenanceStats: []
+  passiveStats: []
+  currentNeed:
+    type: 0
+    value: 0
+    modifier: 0
+    defaultModifier: 0
+    importanceCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    impact: 0
+  highestImpact: 0
+--- !u!114 &4072825853947793671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8504342639703974415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9e7ed87ae5d74089e7eb40d5d809a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcGameObject: {fileID: 8504342639703974415}
+  agent: {fileID: 8504342639703974644}
+  character: {fileID: 8504342639703974649}
+  currentHealth: 0
+  currentMentalHealth: 0
+  currentHunger: 0
+  currentEnergy: 0
+  currentMoney: 0
+  minimumMovementSpeed: 0
+  maximumMovementSpeed: 0
+  isMale: 0
+  isMarried: 0
+  firstName: 
+  lastName: 
+  age: 0
+  birthday: 0
+  isEmployed: 0
+  workplace: 
+  workplaceIdentifier: 0
+  hasHome: 0
+  homeType: 0
+  homeIdentifier: 0
+--- !u!114 &8504342639703974649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8504342639703974415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7a80d520cacc042b5fe14f373d8173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MovingTurnSpeed: 360
+  m_StationaryTurnSpeed: 180
+  m_JumpPower: 6
+  m_GravityMultiplier: 2
+  m_RunCycleLegOffset: 0.2
+  m_MoveSpeedMultiplier: 1
+  m_AnimSpeedMultiplier: 1
+  m_GroundCheckDistance: 0.6
 --- !u!1001 &8504342640147360395
 PrefabInstance:
   m_ObjectHideFlags: 0

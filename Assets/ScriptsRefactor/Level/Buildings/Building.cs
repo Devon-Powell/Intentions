@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class Building : MonoBehaviour
 {
-    public string name;
-    public Vector3 location;
+    public BuildingManager _buildingManager;
+    public string buildingName;
+    public Vector3 buildingLocation;
     public List<GameObject> interactableObjects;
     
     protected virtual void Awake()
     {
+        if(_buildingManager == null)
+            _buildingManager = (BuildingManager) FindObjectOfType(typeof(BuildingManager));
         
+        _buildingManager.buildingList.Add(this);
+        buildingLocation = transform.position;
     }
 }
