@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class IndustrialBuilding : Building
 {
-    protected override void Awake()
+    protected override void Start()
     {
-        base.Awake();
+        base.Start();
         _buildingManager.industrialBuildings.Add(this);
     }
 }

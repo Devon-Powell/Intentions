@@ -12,27 +12,114 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be79e1c812dbc564a873bdd5193fff88, type: 3}
   m_Name: NPCGenerationDataSO
   m_EditorClassIdentifier: 
-  employedRatio: 0
-  homelessRatio: 0
-  lastNameRatio: 0
+  employedRatio: 0.95
+  homelessRatio: 0.05
+  lastNameRatio: 0.9
   ageCurve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 20
+      inSlope: 0.11303085
+      outSlope: 0.11303085
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.221519
+    - serializedVersion: 3
+      time: 0.8137211
+      value: 66.70442
+      inSlope: -0.014955634
+      outSlope: -0.014955634
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.35283816
+    - serializedVersion: 3
+      time: 1
+      value: 100
+      inSlope: -0.048205316
+      outSlope: -0.048205316
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.16850674
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   healthCurve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 50
+      inSlope: 0.11303085
+      outSlope: 0.11303085
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.221519
+    - serializedVersion: 3
+      time: 0.10582626
+      value: 96.81038
+      inSlope: -0.014955634
+      outSlope: -0.014955634
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.35283816
+    - serializedVersion: 3
+      time: 1
+      value: 100
+      inSlope: -0.048205316
+      outSlope: -0.048205316
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.16850674
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   mentalHealthCurve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 50
+      inSlope: 0.11303085
+      outSlope: 0.11303085
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.221519
+    - serializedVersion: 3
+      time: 0.10582626
+      value: 96.81038
+      inSlope: -0.014955634
+      outSlope: -0.014955634
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.35283816
+    - serializedVersion: 3
+      time: 1
+      value: 100
+      inSlope: -0.048205316
+      outSlope: -0.048205316
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.16850674
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  maleNames: []
-  femaleNames: []
-  lastNames: []
+  maleNames:
+  - Male01
+  - Male02
+  femaleNames:
+  - Female01
+  - Female02
+  lastNames:
+  - Last01
+  - Last02

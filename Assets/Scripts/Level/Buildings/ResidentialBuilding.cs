@@ -9,9 +9,9 @@ public class ResidentialBuilding : Building
     public int maxFamilies;
     //public List<NPCData> currentResidents;
     
-    protected override void Awake()
+    protected override void Start()
     {
-        base.Awake();
+        base.Start();
         _buildingManager.residentialBuildings.Add(this);
     }
 }

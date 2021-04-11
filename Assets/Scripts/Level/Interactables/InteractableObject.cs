@@ -40,13 +40,19 @@ public class InteractableObject : MonoBehaviour
     [Range(-100,100)]
     public float moneyAffect;
 
-    [Header("NPC Stat Modifiers")] [Range(-10, 10)] [ItemCanBeNull]
+    [Header("NPC Stat Modifiers")]
     public List<InteractableStatModifier> interactableStatModifiers;
 
     protected virtual void Awake()
     {
         building = (Building) transform.parent.parent.GetComponent(typeof(Building));
+    }
+    
+    protected virtual void Start()
+    {
         activityLocation = transform.position;
         activityRotation = transform.rotation;
     }
+    
+    
 }

@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 2143536908873849742}
   - component: {fileID: 4072825853947793671}
   - component: {fileID: 8504342639703974649}
+  - component: {fileID: 1417371388475411098}
   m_Layer: 0
   m_Name: NPCPrefab_4-4-2021
   m_TagString: Character
@@ -175,10 +176,87 @@ MonoBehaviour:
   moveSpeedMin: 0
   moveSpeedMax: 0
   currentMoveSpeed: 0
-  maintenanceStats: []
-  passiveStats: []
+  maintenanceStats:
+  - type: 0
+    value: 0
+    modifier: 0
+    defaultModifier: 0
+    importanceCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    impact: 0
+  - type: 1
+    value: 0
+    modifier: 0
+    defaultModifier: 0
+    importanceCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    impact: 0
+  - type: 2
+    value: 0
+    modifier: 0
+    defaultModifier: 0
+    importanceCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    impact: 0
+  - type: 3
+    value: 0
+    modifier: 0
+    defaultModifier: 0
+    importanceCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    impact: 0
+  passiveStats:
+  - type: 4
+    value: 0
+    modifier: 0
+    defaultModifier: 0
+    importanceCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    impact: 0
+  - type: 7
+    value: 0
+    modifier: 0
+    defaultModifier: 0
+    importanceCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    impact: 0
+  - type: 7
+    value: 0
+    modifier: 0
+    defaultModifier: 0
+    importanceCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    impact: 0
   currentNeed:
-    type: 0
+    type: 5
     value: 0
     modifier: 0
     defaultModifier: 0
@@ -244,6 +322,25 @@ MonoBehaviour:
   m_MoveSpeedMultiplier: 1
   m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: 0.6
+--- !u!114 &1417371388475411098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8504342639703974415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8567769306837574e8682f2fcb695344, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcStats: {fileID: 0}
+  interactableObjects: {fileID: 0}
+  currentInteractable: {fileID: 0}
+  currentNeed: 0
+  hasGoal: 0
+  isAtTarget: 0
+  isInteracting: 0
 --- !u!1001 &8504342640147360395
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -20,12 +20,15 @@ public class NPCGoals : MonoBehaviour
     public bool isAtTarget;
     public bool isInteracting;
     
-    private void Start()
+    private void Awake()
     {
         interactableObjects = (InteractableObjects) FindObjectOfType(typeof(InteractableObjects));
         npcStats = (NPCStats) GetComponent(typeof(NPCStats));
         agent = (NavMeshAgent) GetComponent(typeof(NavMeshAgent));
+    }
 
+    private void Start()
+    {
         InvokeRepeating(nameof(CheckGoalState), 0.1f, 0.1f);
     }
 
@@ -59,39 +62,41 @@ public class NPCGoals : MonoBehaviour
         currentNeed = npcStats.FindCurrentNeed();
 
         int i;
-        switch (currentNeed)
-        {
-            case StatType.Hunger:
-                i = Random.Range(0, interactableObjects.hungerInteractables.Count);
-                currentInteractable = interactableObjects.hungerInteractables[i];
-                break;
-            case StatType.Energy:
-                i = Random.Range(0, interactableObjects.energyInteractables.Count);
-                currentInteractable = interactableObjects.energyInteractables[i];
-                break;
-            case StatType.Hygiene:
-                i = Random.Range(0, interactableObjects.hygieneInteractables.Count);
-                currentInteractable = interactableObjects.hygieneInteractables[i];
-                break;
-            case StatType.Restroom:
-                i = Random.Range(0, interactableObjects.restroomInteractables.Count);
-                currentInteractable = interactableObjects.restroomInteractables[i];
-                break;
-            case StatType.Social:
-                i = Random.Range(0, interactableObjects.socialInteractables.Count);
-                currentInteractable = interactableObjects.socialInteractables[i];
-                break;
-            case StatType.Health:
-                break;
-            case StatType.Sanity:
-                break;
-            case StatType.Mood:
-                break;
-            default:
-                throw new ArgumentOutOfRangeException();
-        }
-
-        agent.SetDestination(currentInteractable.transform.position);
+        // switch (currentNeed)
+        // {
+        //     case StatType.Hunger:
+        //         i = Random.Range(0, interactableObjects.hungerInteractables.Count);
+        //         currentInteractable = interactableObjects.hungerInteractables[i];
+        //         break;
+        //     case StatType.Energy:
+        //         i = Random.Range(0, interactableObjects.energyInteractables.Count);
+        //         currentInteractable = interactableObjects.energyInteractables[i];
+        //         break;
+        //     case StatType.Hygiene:
+        //         i = Random.Range(0, interactableObjects.hygieneInteractables.Count);
+        //         currentInteractable = interactableObjects.hygieneInteractables[i];
+        //         break;
+        //     case StatType.Restroom:
+        //         i = Random.Range(0, interactableObjects.restroomInteractables.Count);
+        //         currentInteractable = interactableObjects.restroomInteractables[i];
+        //         break;
+        //     case StatType.Social:
+        //         i = Random.Range(0, interactableObjects.socialInteractables.Count);
+        //         currentInteractable = interactableObjects.socialInteractables[i];
+        //         break;
+        //     case StatType.Health:
+        //         break;
+        //     case StatType.Sanity:
+        //         break;
+        //     case StatType.Mood:
+        //         break;
+        //     default:
+        //         throw new ArgumentOutOfRangeException();
+        // }
+        if (currentInteractable != null)
+            agent.SetDestination(currentInteractable.transform.position);
+        else
+            hasGoal = false;
     }
 
     private IEnumerator Interaction(float time)

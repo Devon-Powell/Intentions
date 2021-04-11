@@ -13,7 +13,10 @@ public class Building : MonoBehaviour
     {
         if(_buildingManager == null)
             _buildingManager = (BuildingManager) FindObjectOfType(typeof(BuildingManager));
-        
+    }
+    
+    protected virtual void Start()
+    {
         _buildingManager.buildingList.Add(this);
         buildingLocation = transform.position;
     }

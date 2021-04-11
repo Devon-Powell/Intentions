@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public static class SetRandomSeed
+
+public class SetRandomSeed : MonoBehaviour
 {
-    private static SetRandomSeedSO _setRandomSeedSo;
-    public static void Init()
+    private SetRandomSeedSO _setRandomSeedSo;
+    public void Awake()
     {
-        _setRandomSeedSo = Resources.Load<SetRandomSeedSO>("ScriptableObjects/SetRandomSeed");
+        _setRandomSeedSo = Resources.Load<SetRandomSeedSO>("ScriptableObjects/GameData/SetRandomSeedSO");
         
         if (_setRandomSeedSo.useStringSeed)
             _setRandomSeedSo.seed = _setRandomSeedSo.stringSeed.GetHashCode();

@@ -15,5 +15,5 @@ MonoBehaviour:
   useStringSeed: 0
   stringSeed: seed string
   randomizeSeed: 0
-  seed: 0
+  seed: 15
   values: []

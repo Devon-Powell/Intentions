@@ -1015,10 +1015,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &29494440
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2525,7 +2522,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64729484}
-  m_LocalRotation: {x: 0.12038503, y: 0.000000027085303, z: 0.000000009522022, w: 0.9927273}
+  m_LocalRotation: {x: 0.12038506, y: -0.000000002515176, z: 0.000000013111583, w: 0.9927273}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4636,10 +4633,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &170274796
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5150,10 +5144,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &179543600
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5427,10 +5418,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &183676007
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6376,10 +6364,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &248335209
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8485,10 +8470,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &313911585
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9818,10 +9800,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &371286777
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11432,10 +11411,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &430589124
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14534,10 +14510,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &548490930
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14653,10 +14626,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &548590856
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15945,10 +15915,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &604077229
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16301,10 +16268,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &613450650
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17462,10 +17426,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &665104718
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17745,10 +17706,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &676880548
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18259,10 +18217,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &694260647
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18704,10 +18659,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &713988189
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18987,10 +18939,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &732446547
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19373,10 +19322,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &748107521
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20414,10 +20360,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &793779834
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20938,10 +20881,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &836492125
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21701,10 +21641,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &861081738
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23745,10 +23682,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &940572007
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25178,10 +25112,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1005142696
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26429,10 +26360,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1051524123
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26639,10 +26567,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1057720089
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27085,10 +27010,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1078543954
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27525,10 +27447,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1099006297
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28026,8 +27945,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1115668707}
-  - component: {fileID: 1115668708}
   - component: {fileID: 1115668709}
+  - component: {fileID: 1115668708}
+  - component: {fileID: 1115668711}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -28078,8 +27998,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d53869e79700a648b07b034bf7128f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _buildingManager: {fileID: 1115668708}
+  _npcDataGenerator: {fileID: 1376678712}
   npcPrefab: {fileID: 8504342639703974415, guid: dcf70d32f79d5de499e67bf40335a963,
     type: 3}
+--- !u!114 &1115668711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115668706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac1339d96c2a80342815ecb16d40b70c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1116762780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29238,10 +29172,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1182137330
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29916,10 +29847,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1212581139
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30677,10 +30605,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1237291181
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30875,10 +30800,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1242444377
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32073,10 +31995,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1288777909
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32355,10 +32274,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1305538013
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33352,7 +33268,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1366931803}
-  m_LocalRotation: {x: 0.12038505, y: -0.0000000033327792, z: 0.000000035112194, w: 0.99272734}
+  m_LocalRotation: {x: 0.12038505, y: -0.000000003332559, z: 0.000000035110403, w: 0.99272734}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -33448,6 +33364,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1376678716}
+  - component: {fileID: 1376678712}
   m_Layer: 0
   m_Name: NPCGenerator
   m_TagString: NPCGenerator
@@ -33455,6 +33372,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1376678712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376678711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae963977fa4f5a04e860fe23b4855170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1376678716
 Transform:
   m_ObjectHideFlags: 0
@@ -36560,10 +36489,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1483404202
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36758,10 +36684,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1490677412
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37467,7 +37390,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544861961}
-  m_LocalRotation: {x: 0.12038505, y: -0.0000000033292975, z: 0.000000035083495, w: 0.99272734}
+  m_LocalRotation: {x: 0.12038506, y: -0.0000000052071023, z: 0.000000035309967, w: 0.9927273}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -38469,10 +38392,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1570923988
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41422,7 +41342,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
-  m_LocalRotation: {x: 0.12038506, y: -0.0000000033327798, z: 0.000000035112194, w: 0.9927273}
+  m_LocalRotation: {x: 0.12038506, y: -0.0000000033325593, z: 0.000000035110403, w: 0.9927273}
   m_LocalPosition: {x: 0, y: 2.94, z: -5.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -41676,10 +41596,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1689568374
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -43707,10 +43624,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1795359976
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -43826,10 +43740,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1795552519
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -43945,10 +43856,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1796766772
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -46424,10 +46332,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1894416414
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -46955,10 +46860,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1911493381
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -47074,10 +46976,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1914084874
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -47193,10 +47092,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1914335304
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -47475,10 +47371,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1918778579
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -48498,10 +48391,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1954895016
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49027,10 +48917,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1981187265
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49364,10 +49251,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1991563841
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49562,10 +49446,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &1996703931
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -50941,10 +50822,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &2064295965
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51060,10 +50938,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &2067336067
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51401,10 +51276,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &2093177867
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -52728,10 +52600,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &2137960812
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -52953,10 +52822,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &2139713929
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53151,10 +53017,7 @@ MonoBehaviour:
   hungerAffect: 0
   energyAffect: 0
   moneyAffect: 0
-  healthModifier: 0
-  mentalHealthModifier: 0
-  hungerModifier: 0
-  energyModifier: 0
+  interactableStatModifiers: []
 --- !u!23 &2142241650
 MeshRenderer:
   m_ObjectHideFlags: 0

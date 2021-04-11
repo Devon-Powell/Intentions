@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class RecreationalBuilding : Building
 {
-    protected override void Awake()
+    protected override void Start()
     {
-        base.Awake();
+        base.Start();
         _buildingManager.recreationalBuildings.Add(this);
     }
 }

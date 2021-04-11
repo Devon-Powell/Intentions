@@ -7,9 +7,9 @@ using UnityEngine;
 public class NPCGenerationDataSO : ScriptableObject
 {
     [Header("Generation Affectors")]
-    public float employedRatio;
-    public float homelessRatio;
-    public float lastNameRatio;
+    [Range(0, 1)] public float employedRatio;
+    [Range(0, 1)] public float homelessRatio;
+    [Range(0, 1)] public float lastNameRatio;
 
     public AnimationCurve ageCurve;
     public AnimationCurve healthCurve;

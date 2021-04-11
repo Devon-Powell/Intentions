@@ -7,16 +7,28 @@ using Random = UnityEngine.Random;
 
 public class NPCSpawner : MonoBehaviour
 {
-    private BuildingManager _buildingManager;
+    [SerializeField] private BuildingManager _buildingManager;
+    [SerializeField] private NPCDataGenerator _npcDataGenerator;
     
     [SerializeField] private GameObject npcPrefab;
     
-    private void Start()
+    public void Start()
     {
         if(_buildingManager == null)
             _buildingManager = (BuildingManager) FindObjectOfType(typeof(BuildingManager));
-        
+
+        if (_npcDataGenerator == null)
+            _npcDataGenerator = (NPCDataGenerator) FindObjectOfType(typeof(NPCDataGenerator));
+         
         SpawnBuildingResidents();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SpawnBuildingResidents();
+        }
     }
 
     private void SpawnBuildingResidents()
@@ -41,5 +53,6 @@ public class NPCSpawner : MonoBehaviour
         spawnPosition.z += Random.Range(-10, 10);
 
         GameObject npc = Instantiate(npcPrefab, spawnPosition, Quaternion.identity);
+        _npcDataGenerator.AssignCharacterData((NPCData) npc.GetComponent(typeof(NPCData)));
     }
 }
